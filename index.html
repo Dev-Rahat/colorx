@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Desgin T-Shirt, Mug, Cap And More</title>
+  <link rel="stylesheet" href="style.css">
+  <!-----------------------------------------
+        -----------Font Awesome kit------------
+    ------------------------------------------->
+  <script src="https://kit.fontawesome.com/b521bb9b1a.js" crossorigin="anonymous"></script>
+  <!-----------------------------------------
+        -----------Bootstrap------------
+    ------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <!-----------------------------------------
+                 -----------Navbar------------
+        ------------------------------------------->
+    <section class="container">
+      <nav class="navbar navbar-expand-md  ">
+        <div class="container-fluid d-flex ">
+          <a class="navbar-brand">
+            <img class="" src="images/Logo.png" alt="">
+          </a>
+          <form class="d-flex mx-auto " style="width: 300px;">
+            <input class="form-control " type="search" placeholder="Search Colorx" aria-label="Search">
+            <button class="btn btn-outline-success rounded" type="submit">Search</button>
+          </form>
+          <div class="cart">
+            <i class="fas fa-shopping-cart mx-3 fa-2x"></i>
+            <i class="fas fa-user-circle mx-3 fa-2x"></i>
+          </div>
+        </div>
+      </nav>
+      <hr class="mb-5">
+
+      <!-----------------------------------------
+                  -----------Nav Menu bar------------
+              ------------------------------------------->
+
+      <div class="navmenu">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="Product-tab" data-bs-toggle="tab" data-bs-target="#Product"
+              type="button" role="tab" aria-controls="Product" aria-selected="true">Product</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Service-tab" data-bs-toggle="tab" data-bs-target="#Service" type="button"
+              role="tab" aria-controls="Service" aria-selected="false">Service</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Integration-tab" data-bs-toggle="tab" data-bs-target="#Integration"
+              type="button" role="tab" aria-controls="Integration" aria-selected="false">Integration</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#How It Works" type="button"
+              role="tab" aria-controls="How It Works" aria-selected="false">How It Works</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Design Maker-tab" data-bs-toggle="tab" data-bs-target="#Design Maker"
+              type="button" role="tab" aria-controls="Design Maker" aria-selected="false">Design Maker</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Resources-tab" data-bs-toggle="tab" data-bs-target="#Resources" type="button"
+              role="tab" aria-controls="Resources" aria-selected="false">Resources</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="Blog-tab" data-bs-toggle="tab" data-bs-target="#Blog" type="button" role="tab"
+              aria-controls="Blog" aria-selected="false">Blog</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="Product" role="tabpanel" aria-labelledby="Product-tab">...</div>
+          <div class="tab-pane fade" id="Service" role="tabpanel" aria-labelledby="Service-tab">...</div>
+          <div class="tab-pane fade" id="Integration" role="tabpanel" aria-labelledby="Integration-tab">...</div>
+          <div class="tab-pane fade" id="How It Works" role="tabpanel" aria-labelledby="How It Works-tab">...</div>
+          <div class="tab-pane fade" id="Design Maker" role="tabpanel" aria-labelledby="Design Maker-tab">...</div>
+          <div class="tab-pane fade" id="Resources" role="tabpanel" aria-labelledby="Resources-tab">...</div>
+          <div class="tab-pane fade" id="Blog" role="tabpanel" aria-labelledby="Blog-tab">...</div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------
+            ------------image slider------------
+            ----------------------------------------->
+    <section class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item p-5 active my-3">
+            <div style="background-color: #ebeae8;" class="row p-5 rounded bg-gradient d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Sell With Print On Demand</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad maxime minus eaque.</p>
+                <button class="btn btn-outline-success rounded">Order Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/Print/print-1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item p-5">
+            <div style="background-color: #ebeae8;" class="row p-5 rounded bg-gradient d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Personalize Custom Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad maxime minus eaque.</p>
+                <button class="btn btn-outline-success rounded">Order Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/Print/print-2.png" class="d-block w-80" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item p-5">
+            <div style="background-color: #ebeae8;" class="row p-5 rounded bg-gradient d-flex align-items-center">
+              <div class="col-lg-7">
+                <h1>Store your own Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad maxime minus eaque.</p>
+                <button class="btn btn-outline-success rounded">Order Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/Print/print-3.png" class="d-block w-80" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-----------------------------------------
+            ------------customs products------------
+            ----------------------------------------->
+    <section class="container">
+      <div class="row p-3 rounded  bg-gradient d-flex align-items-center">
+        <div class="col-lg-6">
+          <h1>Create and sell custom products online</h1>
+          <p>Turn your ideas into premium products that leave a lasting impression.</p>
+          <button class="btn btn-outline-success rounded">Order Now</button>
+        </div>
+        <div class="col-lg-6">
+          <video class="d-block w-100" controls autoplay>
+            <source src="video/Design.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------
+                ------------product items---------------
+                ----------------------------------------->
+    <section class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col-lg-4 col-md-12 col-12 border border-0 shadow-lg">
+          <div class="card h-100 ">
+            <img src="images/product/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success " type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 shadow-lg">
+          <div class="card h-100">
+            <img src="images/product/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success " type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-12 shadow-lg">
+          <div class="card h-100">
+            <img src="images/product/product-4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success " type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container ">
+      <div class="row row-cols-1 row-cols-md-3 g-4 shadow-lg">
+        <div class="col-lg-4 gy-5 ">
+          <div class="card h-100">
+            <img src="images/product/product-5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success " type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 gy-5">
+          <div class="card h-100">
+            <img src="images/product/product-6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success" type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 gy-5 shadow-lg">
+          <div class="card h-100">
+            <img src="images/product/product-7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-5">
+              <button class="btn btn-success " type="button">SEE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------
+                ------------Catalog vist text----------
+                ----------------------------------------->
+    <br>
+    <h5 class="text-center">Visit our <a class="text-decoration-none" href="#"> product catalog </a> to see the full
+      list of products</h5>
+
+    <section class="container">
+      <div class="row p-5 rounded  bg-gradient d-flex align-items-center">
+        <div class="col-lg-6 col-md-12">
+          <h1>How print-on-demand drop shipping works</h1>
+          <p>Learn how Printful fulfills your orders and ships them to your customers.</p>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/dhlP-ciTfuY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <!-----------------------------------------
+                ------------info vist text----------
+                ----------------------------------------->
+    <section class="container">
+      <div class="row p-5 rounded  bg-gradient d-flex align-items-center">
+        <div class="col-lg-3 col-md-6">
+          <i class="fas fa-home fa-3x"></i>
+
+          <h5>Connect to Colorx</h5>
+          <p>Connect your store to Printful and add your products.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="fas fa-shopping-bag fa-3x"></i>
+
+          <h5>Alex from Bangladesh places an order</h5>
+          <p>Connect your store to Printful and add your products.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="fas fa-people-carry fa-3x"></i>
+          <h5>Printful fulfills the order</h5>
+          <p>We take care of your order from A to Z, and control the whole fulfillment process.</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <i class="fas fa-shipping-fast fa-3x"></i>
+          <h5>Order ships to your customer</h5>
+          <p>Alex receives their order, and you get all the credit.</p>
+        </div>
+    </section>
+    <!-----------------------------------------
+                ------------Business Trust text----------
+                ----------------------------------------->
+    <section class="container">
+      <h1 class="text-center">Businesses that trust Printful</h1>
+      <hr>
+      <div class="partner-logo bg-gradient d-flex align-items-center ms-3">
+        <div class="col-lg-3 col-md-6">
+          <img src="images/partners/Coca-Cola-Logo.wine.png" class="img-fluid height: 15px; w-50" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="images/partners/Dunkin-Donuts-Logo.png" class="img-fluid height: 15px; w-50" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="images/partners/Comedy.png" class="img-fluid height: 15px; w-50" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img src="images/partners/cbs.png" class="img-fluid height: 15px ; w-50" alt="">
+        </div>
+
+      </div>
+    </section>
+    <!-----------------------------------------
+                ------------Customer Review----------
+                ----------------------------------------->
+
+    <section class="container">
+      <div class="row p-5 rounded  bg-gradient d-flex align-items-center">
+        <div class="col-lg-6">
+          <img src="images/customer/cstmer.png" class=" rounded-3 d-block w-100" alt="">
+        </div>
+        <div class="col-lg-6">
+          <h1>What our customers are saying</h1>
+          <p style="width: 400;">"If you have an idea, go for it. You don't know who else is watching and how they might
+            be encouraged to go for something, too. I firmly believe that we all have something significant to
+            contribute."
+            <br>
+            <span><small>Dionna Dorsey of District of Clothing wearing her top-selling Doer Tee. <a
+                  class="text-decoration-none" href="#">Photo by Laura Metzler</a>.</small></span>
+          </p>
+        </div>
+
+    </section>
+    <!-----------------------------------------
+                ------------Printful journey text----------
+                ----------------------------------------->
+    <section class="container">
+      <div class="text-center bg-dark text-white mb-5 p-5 rounded">
+        <h1>Ready to start your Printful journey?</h1>
+        <button class="btn btn-primary">Ordar Now</button>
+      </div>
+    </section>
+  </main>
+
+
+  <!-----------------------------------------
+                ------------footer start----------
+                ----------------------------------------->
+  <footer>
+    <section class="container">
+      <div class="container text-center bg-success pb-3 ">
+        <div class="row d-flex align-items-center justify-content-between p-5 ">
+          <div class="col-lg-8 col-md-12 ">
+            <h1>RAHAT VAI</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, possimus eum natus nulla harum quas
+              temporibus voluptas neque ab doloribus error maxime sed atque minus, commodi beatae et enim sit.</p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="social-icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-snapchat-ghost"></i>
+            </div>
+          </div>
+        </div>
+        <p>© 2013 - 2021 All Rights reserved. Colorx® Inc. 11025 Westlake Dr, Charlotte, North Carolina 28273</p>
+      </div>
+    </section>
+  </footer>
+  <!-- Js script  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
